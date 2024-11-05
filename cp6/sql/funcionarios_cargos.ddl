@@ -10,9 +10,6 @@
 --   site:      Oracle Database 21c
 --   tipo:      Oracle Database 21c
 
-DROP TABLE cargos CASCADE CONSTRAINTS;
-DROP TABLE d_f CASCADE CONSTRAINTS;
-DROP TABLE funcionarios CASCADE CONSTRAINTS;
 
 CREATE TABLE cargos (
     cargo_id           INTEGER NOT NULL,
