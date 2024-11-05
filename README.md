@@ -1,8 +1,9 @@
-# 📊 Projeto CP 5/6 Back-End - Conexão Oracle com Python
+# 📊 Projeto CP 6  - Conexão Oracle com Python
 
 Bem-vindo ao repositório do projeto de Back-End para o Checkpoint 6 em 2024! Este repositório contém um projeto prático de integração entre o banco de dados Oracle e o Python, focado em operações CRUD e geração de relatórios.
 
-### Professor: Caio Halbert Jacinto
+### Professor: Daniel Trevisan Bravo
+
 
 ## 👥 Integrantes
 
