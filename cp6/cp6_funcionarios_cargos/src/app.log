@@ -1,0 +1,19 @@
+2024-11-05 18:46:50 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-05 18:47:02 - ERROR - Erro ao realizar consulta: ORA-00904: "F"."CARGO_ID": identificador inválido
+Help: https://docs.oracle.com/error-help/db/ora-00904/, Consulta: 
+            SELECT f.funcionario_id, f.funcionario_nome, f.funcionario_salario, c.cargo_descricao
+            FROM funcionarios f
+            JOIN cargos c ON f.cargo_id = c.cargo_id
+            WHERE c.cargo_descricao = 'professor'
+        
+2024-11-05 18:47:02 - INFO - Relatório de funcionários por cargo 'professor' gerado com sucesso.
+2024-11-05 18:52:46 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-05 18:52:56 - INFO - Consulta realizada com sucesso: 
+        SELECT cargo_id, cargo_descricao, cargo_departamento
+        FROM cargos
+        ORDER BY cargo_id
+     com parâmetros None
+2024-11-05 18:58:01 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-05 18:58:31 - INFO - Novo cargo inserido: 1, Departamento: Limpeza
+2024-11-05 18:59:11 - INFO - Novo cargo inserido: Secretaria, Departamento: Secretaria
+2024-11-05 18:59:45 - INFO - Cargo atualizado: ID 1, Nova Descrição: Professor Primário, Novo Departamento: Secretária de Educação
