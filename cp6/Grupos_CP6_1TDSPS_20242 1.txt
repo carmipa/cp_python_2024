@@ -1,0 +1,12 @@
+Grupos - CP6
+
+Beatriz  - Funcionários x Cargos
+Matheus - Professores x Endereços
+Gabriel - Medicamentos x Laboratórios
+Guilherme Alves - Veículos x Marcas 
+Gustavo - Imóveis x Locatários
+Murilo - Notas Fiscais x Clientes
+Nicolas - Fornecedores x Produtos
+Rafael Bezerra - Contas bancárias x Clientes
+Rafael Rodrigues - Departamentos x Gerentes
+Rafael Romanini - Cartões de Crédito x Clientes

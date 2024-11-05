@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C966703-EF9C-0E9F-41A5-F89B8EAB82BD" name="FUNCIONARIOS">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:47:05 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="funcionario_id" id="B20B9E87-D8DA-3E4F-6E77-F718BFD43BD6">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:47:33 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funcionario_cpf" id="FE03808E-DD8D-9B76-0D19-A5B7E19E95E8">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:47:56 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funcionario_nome" id="D7543ACC-4307-FDD2-D9E9-034B25061DD5">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:48:21 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funcionario_salario" id="CF723EED-640D-C8E3-A63E-DE5076B90F62">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:48:47 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funcionario_integer" id="1E117C2E-3708-1CD0-EFF4-81CDDD90D580">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:49:14 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D757483-8B35-3CE1-C342-1A32275F3721" name="FUNCIONARIOS PK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:47:53 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B20B9E87-D8DA-3E4F-6E77-F718BFD43BD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C2EE693-D118-29F7-CF52-4AB216721C1F" name="FUNCIONARIOS">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>1C966703-EF9C-0E9F-41A5-F89B8EAB82BD</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="funcionario_id" id="0676B929-D582-B56B-8AF3-5CAC0D0EACC9">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>B20B9E87-D8DA-3E4F-6E77-F718BFD43BD6</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_cpf" id="3B7D3C3C-2610-38DA-11F5-F197992D9656">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>FE03808E-DD8D-9B76-0D19-A5B7E19E95E8</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_nome" id="39B142A2-676E-CD91-BD77-3765E87CD194">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>D7543ACC-4307-FDD2-D9E9-034B25061DD5</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_salario" id="25CFF377-9B1F-EC76-8B65-A4F59802A5F9">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>CF723EED-640D-C8E3-A63E-DE5076B90F62</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_integer" id="0199B894-B736-7B9D-16A9-6BC0F2CA1B51">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>1E117C2E-3708-1CD0-EFF4-81CDDD90D580</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DD8BE03-7DE0-6AF4-0DBC-4A02ED2BE1A6" name="FUNCIONARIOS_PK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>3D757483-8B35-3CE1-C342-1A32275F3721</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0676B929-D582-B56B-8AF3-5CAC0D0EACC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

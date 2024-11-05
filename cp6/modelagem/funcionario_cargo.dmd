@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="funcionario_cargo" id="B46FD7CF-69A9-A24A-F505-B3A726F1732E" version="3.5">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:43:23 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B46FD7CF-69A9-A24A-F505-B3A726F1732E</designId>
+</OSDM_Design>

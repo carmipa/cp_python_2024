@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A8D4351-01B2-08AA-FD46-674A13CC0C4C" name="D_F">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>88467B48-4357-850A-A56E-0C2997683081</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cf_id" id="503D1199-6BF7-12B7-0772-D387ED8F678C">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>54B834C3-FCC5-46A4-974A-484E19F7597B</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGOS_cargo_id" id="D73B94F2-6C5E-8DF1-AA66-8857BFC7A513">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>ADAC1EE7-1EF7-E93D-7BEA-BD991A076822</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DCD02BF-5222-F984-96F2-2957A7941C8F" referredColumn="398C6411-F629-5DB3-D7B5-EEB33BDBA883"/>
+</associations>
+</Column>
+<Column name="FUNCIONARIOS_funcionario_id" id="203304A5-266C-BEE6-C0C4-E2D150EC4148">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>BB75AB23-51D0-3222-2B18-5F524CE42E3E</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4396F00-C427-F93C-3896-74DE4751D37C" referredColumn="0676B929-D582-B56B-8AF3-5CAC0D0EACC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85754886-2C99-CCDA-15C6-F4C8A729B330" name="D_F_PK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>CD67774F-D22B-9CA5-8579-2DEF06BB0A68</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="503D1199-6BF7-12B7-0772-D387ED8F678C"/>
+<colUsage columnID="D73B94F2-6C5E-8DF1-AA66-8857BFC7A513"/>
+<colUsage columnID="203304A5-266C-BEE6-C0C4-E2D150EC4148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DDFE6A7-A714-9F04-FDA6-C44E5A1B0553" name="D_F_CARGOS_FK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>45A50370-4C1F-9326-FFF3-35A89B9B1079</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D73B94F2-6C5E-8DF1-AA66-8857BFC7A513"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A73C82C-15CC-B344-E708-0E02F4942063" name="D_F_FUNCIONARIOS_FK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:52:59 UTC</createdTime>
+<generatorID>6B454B48-1F92-58DC-8EBD-39E326C4937A</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="203304A5-266C-BEE6-C0C4-E2D150EC4148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8ACBEA34-16A4-B17F-A8A5-00401177C9B9" name="CARGOS">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:49:54 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cargo_id" id="87BADFB1-E82E-29B6-0F3E-D2B4AF04DB16">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:50:01 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_descricao" id="2D3C44D9-B2C5-4D32-BC1A-4672518651CA">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:50:24 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_departamento" id="2FFCB36A-1137-51FC-D1D5-5526261DBA11">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:50:44 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="724F7C45-F41D-DF7D-76D1-CFE7015D0390" name="CARGOS PK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-05 12:50:13 UTC</createdTime>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87BADFB1-E82E-29B6-0F3E-D2B4AF04DB16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
