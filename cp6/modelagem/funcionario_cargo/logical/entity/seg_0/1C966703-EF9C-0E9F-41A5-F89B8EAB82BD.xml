@@ -4,7 +4,7 @@
 <createdTime>2024-11-05 12:47:05 UTC</createdTime>
 <ownerDesignName>funcionario_cargo</ownerDesignName>
 <engineerTo>
-<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2024-11-05 12:47:33 UTC</createdTime>
 <ownerDesignName>funcionario_cargo</ownerDesignName>
 <engineerTo>
-<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2024-11-05 12:47:56 UTC</createdTime>
 <ownerDesignName>funcionario_cargo</ownerDesignName>
 <engineerTo>
-<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2024-11-05 12:48:21 UTC</createdTime>
 <ownerDesignName>funcionario_cargo</ownerDesignName>
 <engineerTo>
-<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,20 +57,34 @@
 <createdTime>2024-11-05 12:48:47 UTC</createdTime>
 <ownerDesignName>funcionario_cargo</ownerDesignName>
 <engineerTo>
-<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="funcionario_integer" id="1E117C2E-3708-1CD0-EFF4-81CDDD90D580">
+<Attribute name="funcionario_idade" id="1E117C2E-3708-1CD0-EFF4-81CDDD90D580">
 <createdBy>paulo</createdBy>
 <createdTime>2024-11-05 12:49:14 UTC</createdTime>
 <ownerDesignName>funcionario_cargo</ownerDesignName>
 <engineerTo>
-<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_id" id="17D2C64D-505F-47C3-EC51-48214F87A1B1">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:42:35 UTC</createdTime>
+<generatorID>9594E47D-6894-A458-A633-5805089024C5</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<engineerTo>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
+</engineerTo>
+<referedAttribute>87BADFB1-E82E-29B6-0F3E-D2B4AF04DB16</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -83,7 +97,7 @@
 <createdTime>2024-11-05 12:47:53 UTC</createdTime>
 <ownerDesignName>funcionario_cargo</ownerDesignName>
 <engineerTo>
-<item key="E74C3EF1-2F9A-D249-D3A2-73E3F2C7140D" value="true"/>
+<item key="3857C5BD-B58D-9891-E5AA-DD4F81739994" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

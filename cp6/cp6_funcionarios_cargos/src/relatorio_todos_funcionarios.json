@@ -1,0 +1,29 @@
+[
+    {
+        "funcionario_id": 1,
+        "funcionario_cpf": 29902327885,
+        "funcionario_nome": "Paulo andré",
+        "funcionario_salario": 35000.0,
+        "funcionario_idade": 45,
+        "cargo_descricao": "Diretor Juridico",
+        "cargo_departamento": "Departamento Juridico"
+    },
+    {
+        "funcionario_id": 2,
+        "funcionario_cpf": 99999999999,
+        "funcionario_nome": "Indio Viadinho",
+        "funcionario_salario": 1.0,
+        "funcionario_idade": 99,
+        "cargo_descricao": "Desenvolvedor Web de botão",
+        "cargo_departamento": "Front ENd"
+    },
+    {
+        "funcionario_id": 3,
+        "funcionario_cpf": 29902327885,
+        "funcionario_nome": "Joaqui",
+        "funcionario_salario": 25.0,
+        "funcionario_idade": 13,
+        "cargo_descricao": "Jogador de ARK",
+        "cargo_departamento": "jogador"
+    }
+]

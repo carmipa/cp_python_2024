@@ -17,3 +17,64 @@ Help: https://docs.oracle.com/error-help/db/ora-00904/, Consulta:
 2024-11-05 18:58:31 - INFO - Novo cargo inserido: 1, Departamento: Limpeza
 2024-11-05 18:59:11 - INFO - Novo cargo inserido: Secretaria, Departamento: Secretaria
 2024-11-05 18:59:45 - INFO - Cargo atualizado: ID 1, Nova Descrição: Professor Primário, Novo Departamento: Secretária de Educação
+2024-11-06 12:02:40 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 12:16:52 - INFO - Novo cargo inserido: Motorista, Departamento: RH
+2024-11-06 12:24:45 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 12:24:49 - ERROR - Erro desconhecido no menu principal: name 'crud_cargos' is not defined
+2024-11-06 12:24:53 - ERROR - Erro desconhecido no menu principal: name 'crud_cargos' is not defined
+2024-11-06 12:30:19 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 12:30:35 - INFO - Novo cargo inserido: ID 3.0, Descrição: Advogado, Departamento: Departamento Juridico
+2024-11-06 12:31:11 - INFO - Novo cargo inserido: ID 4.0, Descrição: Jornalista, Departamento: Lixeiro
+2024-11-06 12:31:20 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 12:31:44 - INFO - Novo cargo inserido: ID 5.0, Descrição: 3, Departamento: Diretor Juridico
+2024-11-06 12:31:55 - INFO - Cargo excluído: ID 4
+2024-11-06 12:32:09 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 12:32:19 - WARNING - Entrada inválida no CRUD de cargos.
+2024-11-06 12:33:02 - WARNING - Entrada inválida ao tentar inserir funcionário.
+2024-11-06 12:33:11 - INFO - Relatório salvo como relatorio_todos_funcionarios.json
+2024-11-06 12:36:48 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 12:38:34 - WARNING - Tentativa de inserir funcionário com ID de cargo inválido.
+2024-11-06 12:38:41 - INFO - Relatório salvo como relatorio_todos_funcionarios.json
+2024-11-06 13:11:36 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:12:00 - INFO - Novo cargo inserido: ID 1, Descrição: Advogado, Departamento: Departamento juridico
+2024-11-06 13:12:04 - ERROR - Erro desconhecido no menu principal: tuple indices must be integers or slices, not str
+2024-11-06 13:12:12 - INFO - Relatório de desenvolvedores Front-End com salário entre 8000 e 12000 gerado sem resultados.
+2024-11-06 13:12:22 - ERROR - Erro desconhecido no menu principal: tuple indices must be integers or slices, not str
+2024-11-06 13:14:50 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:14:59 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 13:15:23 - INFO - Cargo atualizado: ID 1, Nova Descrição: Diretor Juridico, Novo Departamento: Departamento Juridico
+2024-11-06 13:15:32 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 13:16:07 - WARNING - Tentativa de inserir funcionário com cargo inexistente: ID 2
+2024-11-06 13:21:55 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:22:02 - ERROR - Erro ao listar funcionários: ORA-00904: "F"."FUNCIONARIO_INTEGER": identificador inválido
+Help: https://docs.oracle.com/error-help/db/ora-00904/
+2024-11-06 13:24:26 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:24:52 - INFO - Relatório salvo como relatorio_todos_funcionarios.json
+2024-11-06 13:28:06 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:28:17 - INFO - Relatório salvo como relatorio_todos_funcionarios.json
+2024-11-06 13:28:33 - INFO - Relatório por cargo 'advogado' gerado sem resultados.
+2024-11-06 13:28:41 - INFO - Relatório de funcionários de TI com mais de 21 anos gerado sem resultados.
+2024-11-06 13:29:22 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:31:44 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 13:32:16 - INFO - Novo funcionário inserido: ID 1, CPF 29902327885, Nome Paulo andré, Salário 35000.0, Idade 45, Cargo ID 1
+2024-11-06 13:32:28 - INFO - Relatório salvo como relatorio_todos_funcionarios.json
+2024-11-06 13:33:09 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:33:29 - INFO - Novo cargo inserido: ID 2, Descrição: Desenvolvedor WEB, Departamento: Front End
+2024-11-06 13:33:57 - INFO - Cargo atualizado: ID 2, Nova Descrição: Desenvolvedor Web de botão, Novo Departamento: Front ENd
+2024-11-06 13:34:10 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 13:34:32 - WARNING - Tentativa de inserir funcionário com CPF inválido.
+2024-11-06 13:35:23 - INFO - Novo funcionário inserido: ID 2, CPF 99999999999, Nome Indio Viadinho, Salário 1.0, Idade 99, Cargo ID 2
+2024-11-06 13:35:39 - INFO - Relatório salvo como relatorio_todos_funcionarios.json
+2024-11-06 13:39:13 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:39:39 - INFO - Novo cargo inserido: ID 3, Descrição: Jogador de ARK, Departamento: jogador
+2024-11-06 13:39:45 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 13:39:57 - WARNING - Tentativa de inserir funcionário com dados inválidos: CPF inválido. Deve conter exatamente 11 números.
+2024-11-06 13:40:07 - WARNING - Tentativa de inserir funcionário com dados inválidos: CPF inválido. Deve conter exatamente 11 números.
+2024-11-06 13:40:15 - WARNING - Tentativa de inserir funcionário com dados inválidos: Nome não pode estar vazio.
+2024-11-06 13:40:20 - WARNING - Tentativa de inserir funcionário com dados inválidos: CPF inválido. Deve conter exatamente 11 números.
+2024-11-06 13:40:47 - INFO - Novo funcionário inserido: ID 3, CPF 29902327885, Nome Joaqui, Salário 25.0, Idade 13, Cargo ID 3
+2024-11-06 13:41:41 - INFO - Relatório salvo como relatorio_todos_funcionarios.json
+2024-11-06 13:45:40 - INFO - Conexão ao banco de dados estabelecida com sucesso.
+2024-11-06 13:45:56 - INFO - Novo cargo inserido: ID 1, Descrição: Aviado, Departamento: Departamento de transporte
+2024-11-06 13:46:03 - INFO - Relatório salvo como relatorio_todos_cargos.json
+2024-11-06 13:46:10 - INFO - Encerrando o sistema.

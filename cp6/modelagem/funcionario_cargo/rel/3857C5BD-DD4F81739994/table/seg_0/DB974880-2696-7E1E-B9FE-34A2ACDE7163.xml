@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB974880-2696-7E1E-B9FE-34A2ACDE7163" name="FUNCIONARIOS">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>1C966703-EF9C-0E9F-41A5-F89B8EAB82BD</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="funcionario_id" id="0DA7242A-91E8-6A99-8767-A47655C82191">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>B20B9E87-D8DA-3E4F-6E77-F718BFD43BD6</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_cpf" id="27233FB2-713F-0CFD-DA2F-933DBD1B4529">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>FE03808E-DD8D-9B76-0D19-A5B7E19E95E8</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_nome" id="1A76A7D4-D060-B8B7-3B2B-7F2FD71405E5">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>D7543ACC-4307-FDD2-D9E9-034B25061DD5</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_salario" id="B5C664CF-4D14-DF82-ED1A-E482FE8B64A0">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>CF723EED-640D-C8E3-A63E-DE5076B90F62</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_integer" id="1907C2B4-7E61-AD0A-32BC-53ED44C0B91C">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>1E117C2E-3708-1CD0-EFF4-81CDDD90D580</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGOS_cargo_id" id="86DBCFEF-BD71-9FB0-643C-C35405315C45">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>17D2C64D-505F-47C3-EC51-48214F87A1B1</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5D60BA9-3D15-4492-9878-3A197D15F71C" referredColumn="43F8B8A8-23AB-2636-DFBB-A3A0FBBE01C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA630ABA-F2CA-8EF5-208B-93A9747D5EC1" name="FUNCIONARIOS_PK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>3D757483-8B35-3CE1-C342-1A32275F3721</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DA7242A-91E8-6A99-8767-A47655C82191"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38EF145A-09E5-1FDE-1238-B3D62DD094D8" name="FUNCIONARIOS_CARGOS_FK">
+<createdBy>paulo</createdBy>
+<createdTime>2024-11-06 15:58:33 UTC</createdTime>
+<generatorID>9594E47D-6894-A458-A633-5805089024C5</generatorID>
+<ownerDesignName>funcionario_cargo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86DBCFEF-BD71-9FB0-643C-C35405315C45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
